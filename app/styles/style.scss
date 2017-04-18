@@ -1,0 +1,26 @@
+$color-gray: #878787;
+$color-white: #fff;
+$color-green: #49A4AA;
+
+
+.btn-miora {
+	background-color: $color-green;
+	color: $color-white;
+
+	&:hover {
+		color: $color-white;
+	}
+}
+
+.border-nav {
+	border-bottom: 1px solid $color-gray;
+}
+
+.text-step {
+	font-size: 14px;
+	color: $color-gray;
+}
+
+.width {
+	width: 100%;
+}
