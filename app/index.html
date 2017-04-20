@@ -39,70 +39,73 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4 text-center">
+      <div class="row padding-column">
+        <div class="col-sm-4 text-center padding-column">
           <h4 class="pull-left">Paso 1. <span class="text-step">Inicia sesión</span></h4>
           <button 
             type="button" 
-            class="btn btn-primary width"
+            class="btn btn-primary width-btn"
             aria-haspopup="true" 
             aria-expanded="false" 
             >
             Entra con Facebook
           </button>
-          <p>ó</p>
+          <div class="content-or">
+            <hr><p>ó</p><hr>
+          </div>
           <div class="input-group">
             <input 
               type="Email" 
-              class="form-control" 
+              class="form-control margin" 
               placeholder="Email" 
               aria-describedby="basic-addon1"
               >
             <input 
               type="Password" 
-              class="form-control" 
+              class="form-control margin" 
               placeholder="Contraseña" 
               aria-describedby="basic-addon1"
               >
             <button 
               type="button" 
-              class="btn btn-miora width"
+              class="btn btn-miora width-btn"
               aria-haspopup="true" 
               aria-expanded="false"
               >
               INGRESAR A MIORA
             </button>
-            <div>
-              <p>
-                ¿No tienes cuenta en MIORA? <span>Pincha AQUÍ</span>
+            <hr>
+            <div class="background-gray">
+              <p class="parraf">
+                ¿No tienes cuenta en MIORA? <span><a href="#">Pincha AQUÍ</a></span>
               </p>
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <h4>Paso 2.<span style="font-size: 12px;">Acerca de tu reserva</span></h4>
-          <div class="input-group">
+        <div class="col-sm-4 padding-column">
+          <h4 text-center>Paso 2. <span class="text-step">Acerca de tu reserva</span></h4>
+          <div class="input-group margin">
             <input 
-              type="text" 
+              type="tel" 
               class="form-control" 
               placeholder="Telefono de contacto" 
               aria-describedby="basic-addon2"
               >
-            <span class="input-group-addon" id="basic-addon2">Editar</span>
+            <span class="input-group-addon">Editar</span>
           </div>
-          <div class="input-group">
+          <div class="input-group margin">
             <input 
               type="text" 
               class="form-control" 
               placeholder="Tiene un codigo promocional" 
               aria-describedby="basic-addon2"
               >
-            <span class="input-group-addon" id="basic-addon2">Aplicar</span>
+            <span class="input-group-addon">Aplicar</span>
           </div>
-          <div class="form-group">
+          <div class=" margin">
             <textarea 
               class="form-control" 
-              rows="5" 
+              rows="7" 
               placeholder="Comentarios para el salón"
               >
             </textarea>
@@ -110,100 +113,105 @@
           <div class="radio">
             <label><input type="radio" name="optradio">Paga con tarjeta</label>
           </div>
-          <div class="input-group">
-            <input 
+          <div class="text-center">
+            <img 
+            src="http://www.dreams.metroeve.com/wp-content/uploads/2016/07/Visa.png" 
+            alt="" 
+            width="70" 
+            height="30" 
+            border="0" 
+            />
+          </div>
+          <div class=" margin">
+            <input
               type="text" 
-              class="form-control" 
-              aria-label="basic-addon2"
+              class="form-control margin" 
               placeholder="Nombre del propietario" 
+              aria-describedby="basic-addon1"
               >
           </div>
-          <div class="input-group">
+          <div class="input-group margin">
             <input 
               type="text" 
               class="form-control" 
               aria-label="basic-addon2"
               placeholder="Número de tarjeta" 
             >
-            <div class="input-group-btn">
+            <div class="input-group-btn margin">
               <button type="button" class="btn btn-default">
                 <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
               </button>
             </div>
           </div>
-          <div class="btn-group">
-            <button 
-              class="btn btn-default dropdown-toggle" 
-              type="button" id="dropdownMenu1" 
-              data-toggle="dropdown" 
-              aria-haspopup="true" 
-              aria-expanded="true"
-              >
-              Mes
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="#">Enero</a></li>
-              <li><a href="#">Febrero</a></li>
-              <li><a href="#">Marzo</a></li>
-              <li><a href="#">Abril</a></li>
-              <li><a href="#">Mayo</a></li>
-              <li><a href="#">Junio</a></li>
-              <li><a href="#">Julio</a></li>
-              <li><a href="#">Agosto</a></li>
-              <li><a href="#">Septiembre</a></li>
-              <li><a href="#">Octubre</a></li>
-              <li><a href="#">Noviembre</a></li>
-              <li><a href="#">Diciembre</a></li>
-            </ul>
-            <button 
-              class="btn btn-default dropdown-toggle" 
-              type="button" id="dropdownMenu1" 
-              data-toggle="dropdown" 
-              aria-haspopup="true" 
-              aria-expanded="true"
-              >
-              Año
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="#">2017</a></li>
-              <li><a href="#">2018</a></li>
-              <li><a href="#">2019</a></li>
-              <li><a href="#">2020</a></li>
-              <li><a href="#">2021</a></li>
-              <li><a href="#">2022</a></li>
-              <li><a href="#">2023</a></li>
-              <li><a href="#">2024</a></li>
-              <li><a href="#">2025</a></li>
-            </ul>
-            <div class="input-group">
-              <input type="number" placeholder="CVV">
-              <div class="input-group-btn">
-                <button class="btn btn-default">
-                  <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
-                </button>
+          <div class="row">
+            <div class="col-sm-3">
+              <select class="form-control">
+                <option>Mes</option>
+                <option>Enero</option>
+                <option>Febrero</option>
+                <option>Marzo</option>
+                <option>Abril</option>
+                <option>Mayo</option>
+                <option>Junio</option>
+                <option>Julio</option>
+                <option>Agosto</option>
+                <option>Septiembre</option>
+                <option>Octubre</option>
+                <option>Noviembre</option>
+                <option>Diciembre</option>
+              </select>
+            </div>
+            <div class="col-sm-3">
+              <select class="form-control">
+                <option>Año</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <div class="input-group">
+                <input 
+                  type="number" 
+                  placeholder="CVV" 
+                  class="form-control" 
+                  aria-label="basic-addon2" 
+                  >
+                <div class="input-group-btn">
+                  <button class="btn btn-default">
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                  </button>
+                </div>
               </div>
-            </div>  
+            </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <h4>Paso 3.<span style="font-size: 12px;">Confirma tu selección</span></h4>
-          <img src="http://placehold.it/350x150">
-          <div>
-            <table>
+        <div class="col-sm-4 padding-column">
+          <h4 text-center>Paso 3.<span class="text-step">Confirma tu selección</span></h4>
+          <img src="http://placehold.it/350x150" class="image-step-three">
+          <div class="content-table">
+            <table class="background-gray">
               <tr>
-                <th>
+                <th colspan="2">
                   <h4>Spa Bliss Udai</h4>
                 </th>
               </tr>
               <tr>
-                <th>
-                  <p>Anaxagoras 915 Consultorio 203 A</p>
+                <th colspan="2">
+                  <p class="adress">Anaxagoras 915 Consultorio 203 A</p>
                 </th>
               </tr>
               <tr>
-                <th>
+                <th colspan="2">
                   <h5>Presoterapía</h5>
                 </th>
               </tr>
@@ -227,7 +235,7 @@
                 <td>Promoción</td>
                 <td>-$2,600</td>
               </tr>
-              <tr>
+              <tr class="total">
                 <td>Total</td>
                 <td>$999</td>
               </tr>
@@ -237,7 +245,7 @@
             </div>
             <button 
               type="button" 
-              class="btn btn-miora"
+              class="btn btn-miora width-btn"
               aria-haspopup="true" 
               aria-expanded="false"
               >

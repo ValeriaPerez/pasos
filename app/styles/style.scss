@@ -1,16 +1,8 @@
 $color-gray: #878787;
 $color-white: #fff;
 $color-green: #49A4AA;
-
-
-.btn-miora {
-	background-color: $color-green;
-	color: $color-white;
-
-	&:hover {
-		color: $color-white;
-	}
-}
+$back-color-gray: #EAECEF;
+$back-color-total: #504D4D;
 
 .border-nav {
 	border-bottom: 1px solid $color-gray;
@@ -19,8 +11,86 @@ $color-green: #49A4AA;
 .text-step {
 	font-size: 14px;
 	color: $color-gray;
+	font-weight: normal;
 }
 
-.width {
+.btn-miora {
+	background-color: $color-green;
+	color: $color-white;
+	border-radius: 0;
+
+	&:hover {
+		color: $color-white;
+	}
+}
+
+.btn-primary {
+	border-radius: 0;
+}
+
+.btn-miora, .btn-primary, .margin{
+	margin: 15px 0; 
+}
+
+.width-btn {
 	width: 100%;
 }
+
+.content-or {
+	display: flex;
+	align-items: flex-end;
+
+	p {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	hr {
+		width: 30%;
+	}
+}
+
+.background-gray {
+	background-color: $back-color-gray;
+
+	.parraf {
+		padding: 10px;
+
+		a {
+			text-decoration: none;
+			color: $color-green;
+		}
+	}
+}
+
+.padding-column {
+	padding: 10px 50px;
+}
+
+.padding-content {
+	padding: 0 50px;
+}
+
+.image-step-three {
+	max-width: 100%;
+}
+
+.content-table {
+	
+	table th, td {
+		padding: 5px 10px;
+		width: 100%;
+	}
+
+	table .total {
+		background-color: $back-color-total;
+		color: $color-white
+	}
+
+	.adress {
+		font-weight: normal;
+		font-size: 14px;
+	}
+}
+
+
