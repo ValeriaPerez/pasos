@@ -6,6 +6,7 @@ $back-color-total: #504D4D;
 
 .border-nav {
 	border-bottom: 1px solid $color-gray;
+	padding: 20px 30px;
 }
 
 .text-step {
@@ -64,22 +65,34 @@ $back-color-total: #504D4D;
 }
 
 .padding-column {
-	padding: 10px 50px;
+	padding: 20px 50px;
+	height: 50em;
+	border-right: 1px solid $color-gray;
+
+	.padding-column:nth-child(3) {
+    border-right: none;
+	}
 }
 
 .padding-content {
 	padding: 0 50px;
 }
 
+.opacity-column {
+	opacity: 0.2;
+} 
+
 .image-step-three {
 	max-width: 100%;
 }
 
 .content-table {
+  table {
+    width: 100%;
+  }
 	
 	table th, td {
 		padding: 5px 10px;
-		width: 100%;
 	}
 
 	table .total {
@@ -91,6 +104,11 @@ $back-color-total: #504D4D;
 		font-weight: normal;
 		font-size: 14px;
 	}
+
+  .text-bold {
+    font-weight: bold;
+    width: 60%;
+  }
 }
 
 
